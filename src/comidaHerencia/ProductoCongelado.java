@@ -18,8 +18,8 @@ public class ProductoCongelado extends Producto {
 
 	@Override
 	public String toString() {
-		return "ProductoCongelado [tempCongelacionRecomendada=" + tempCongelacionRecomendada + ", Fecha de caducidad"
-				+ getFechaCaducidad() + ", Número de lote" + getNumeroLote();
+		return "ProductoCongelado [tempCongelacionRecomendada= " + tempCongelacionRecomendada + ", Fecha de caducidad "
+				+ getFechaCaducidad() + ", Número de lote " + getNumeroLote();
 	}
     
     

@@ -18,8 +18,8 @@ public class ProductoRefrigerado extends Producto{
 
 	@Override
 	public String toString() {
-		return "ProductoRefrigerado [codigoSupervisionAlimentaria=" + codigoSupervisionAlimentaria + ", fechaCaducidad="
-				+ fechaCaducidad + ", numeroLote=" + numeroLote + "]";
+		return "ProductoRefrigerado [codigoSupervisionAlimentaria=" + codigoSupervisionAlimentaria + ", fechaCaducidad= "
+				+ fechaCaducidad + ", numeroLote= " + numeroLote + "]";
 	}
     
 

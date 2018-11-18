@@ -27,8 +27,8 @@ public class ProductoFresco extends Producto {
 
 	@Override
 	public String toString() {
-		return "ProductoFresco [fechaEnvasado=" + fechaEnvasado + ", paisDeOrigen=" + paisDeOrigen + ", fechaCaducidad="
-				+ fechaCaducidad + ", numeroLote=" + numeroLote + "]";
+		return "ProductoFresco [fechaEnvasado= " + fechaEnvasado + ", paisDeOrigen= " + paisDeOrigen + ", fechaCaducidad= "
+				+ fechaCaducidad + ", numeroLote= " + numeroLote + "]";
 	}
     
 
