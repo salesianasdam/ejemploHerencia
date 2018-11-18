@@ -11,11 +11,11 @@ public class TestHerencia {
         lechuga.setPaisDeOrigen("Panamá");
         jugo.setCodigoSupervisionAlimentaria("B#6745");
         System.out.println("Producto Congelado: ");
-        nuggets.imprimirDatos();
+        nuggets.toString();
         System.out.println("Producto Fresco: ");
-        lechuga.imprimirDatos();
+        lechuga.toString();
         System.out.println("Producto Refrigerado: ");
-        jugo.imprimirDatos();
+        jugo.toString();
     }
     
 }

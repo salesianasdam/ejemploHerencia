@@ -24,9 +24,12 @@ public class ProductoFresco extends Producto {
     public String getPaisDeOrigen(){
         return paisDeOrigen; 
     }
+
+	@Override
+	public String toString() {
+		return "ProductoFresco [fechaEnvasado=" + fechaEnvasado + ", paisDeOrigen=" + paisDeOrigen + ", fechaCaducidad="
+				+ fechaCaducidad + ", numeroLote=" + numeroLote + "]";
+	}
     
-    public void imprimirDatos(){
-        imprimirInfo();
-        System.out.println("Fecha de envasado: " + getFechaEnvasado() + "\nPais de origen: " + getPaisDeOrigen() + "\n");
-    }
+
 }

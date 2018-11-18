@@ -15,9 +15,12 @@ public class ProductoCongelado extends Producto {
     public double getTemperaturaRecomendada(){
         return tempCongelacionRecomendada;
     }
+
+	@Override
+	public String toString() {
+		return "ProductoCongelado [tempCongelacionRecomendada=" + tempCongelacionRecomendada + ", Fecha de caducidad"
+				+ getFechaCaducidad() + ", Número de lote" + getNumeroLote();
+	}
     
-    public void imprimirDatos(){
-        imprimirInfo();
-        System.out.println("Temperatura Recomendada: " + getTemperaturaRecomendada() + "\n");
-    }
+    
 }

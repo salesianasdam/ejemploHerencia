@@ -24,8 +24,10 @@ public class Producto {
     public String getNumeroLote(){
         return numeroLote;
     }
+
+	@Override
+	public String toString() {
+		return "Producto [fechaCaducidad=" + fechaCaducidad + ", numeroLote=" + numeroLote + "]";
+	}
     
-    public void imprimirInfo(){
-        System.out.println("Fecha Caducidad: " + getFechaCaducidad() + "\nNumero de Lote: " + getNumeroLote());
-    }
 }

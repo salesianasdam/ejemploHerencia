@@ -15,9 +15,12 @@ public class ProductoRefrigerado extends Producto{
     public String getCodigoSupervisionAlimentaria(){
         return codigoSupervisionAlimentaria;
     }
+
+	@Override
+	public String toString() {
+		return "ProductoRefrigerado [codigoSupervisionAlimentaria=" + codigoSupervisionAlimentaria + ", fechaCaducidad="
+				+ fechaCaducidad + ", numeroLote=" + numeroLote + "]";
+	}
     
-    public void imprimirDatos(){
-        imprimirInfo();
-        System.out.println("Codigo de Supervision Alimentaria: " + getCodigoSupervisionAlimentaria());
-    }
+
 }
